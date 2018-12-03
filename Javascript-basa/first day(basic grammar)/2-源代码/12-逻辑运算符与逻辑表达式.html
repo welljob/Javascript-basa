@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        //逻辑运算符
+        //逻辑与  并且  and  &&
+        //逻辑或  或者  or   ||
+        //逻辑非  非    not  ！
+
+        //逻辑表达式的结果：成立或者不成立
+
+        //1.逻辑与&&：全真才是真，有假便是假
+        //表达式1    表达式2    结果
+        // 真         真         真
+        // 真         假         假
+        // 假         真         假
+        // 假         假         假
+        //var num1 = 10, num2 = 20;
+        //var res = num1 > 20  && num2 < 40;
+        //console.log(res);
+        //缺一(真)不可
+
+        //2.逻辑或||：有真便是真，全假才是假
+        //表达式1    表达式2    结果
+        // 真         真         真
+        // 真         假         真
+        // 假         真         真
+        // 假         假         假
+        //var num1 = 10, num2 = 20;
+        //var res = num1 > 20 || num2 < 40;
+        //console.log(res);
+        //有真就可以
+
+        //3.逻辑非!：取反
+        //如果本来是真，那么就是假。如果本来是假，那么就是真
+        var num = 10;
+        var res = !!(num<20);
+        console.log(res);
+
+        //4.逻辑运算的优先级
+        //优先级顺序： 取反! >  与&&  >  或||
+        var num1 = 10, num2 = 20;
+        var res = num1 > 20 || num2 < 10 && !(num1 > 5);
+        console.log(res);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

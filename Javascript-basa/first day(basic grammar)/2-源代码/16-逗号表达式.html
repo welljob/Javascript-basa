@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        //逗号表达式
+        //逗号表达式的结果,是最后一个式子
+        var a = 10, b = 20;
+        //var res = (a + 10,b + 10,++a);
+        //console.log(res);
+
+        //那么逗号表达式，前面的式子有没有运算
+        var res = (a++,++b,a+b);
+        console.log(res);
+        //前面两个式子，虽然不是结果，但是还是会执行的；
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

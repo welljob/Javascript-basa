@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        //三目表达式（三元表达式）
+        //语法：
+        //表达式 ? 值1 : 值2;
+        //var num = 10;
+        //var res = num > 5 ? 10 : 20;
+        //console.log(res);
+        //表达式如果成立，那么取值1，如果不成立，那么取值2；
+        
+        //让用户输入一个数字，然后判断是不是比10大，如果大，那么请打印“大”_--_--“小”
+        //var num = prompt("请输入一个数字");
+        //var res = num > 10 ? "大" : "小";
+        //console.log(res);
+
+        
+
+        //问：让用户输入名字，年龄，性别，再打印出来
+        var name = prompt("请输入你的名字"), age = prompt("请输入你的年龄"), gender = confirm("你是男生吗？");
+        var res = alert("我的名字是"+name+"，今年"+age+"岁，我是一个"+(gender?'男':'女')+"生！");
+        //利用三元表达式来做判断
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

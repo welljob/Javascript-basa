@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        //自增运算符
+        //前自增，后自增（原有的基础上自增1）
+        //前自增：++num
+        //后自增：num++
+
+        //var num1 = 10; num2 = 20;
+        //++num1;
+        //num2++;
+        //console.log(num1,num2);
+        //前自增与后自增的相同点：都是在原有的基础上加1
+
+        //不同点
+        //var num1 = 10, num2 = 10;
+        //var res = ++num1;
+        //var res2 = num2++;
+        //console.log(res,res2);
+        //前自增与后自增的不同点：前自增，先改变自己，在参与运算/后自增，先参与运算，再改变自己
+
+        //说出下面程序的值：
+	    var a = 12;
+        var b = 10;
+        var c = 5;          
+        var d = a++;         //d:12  a:13
+        var e = ++b;         //e:11  b:11
+        var f = c + d++;     //f:17  d:13
+        var g = c + ++d;     //g:19  d:14  
+        //算出d,e,f,g的值。14,11,17,19
+        console.log(d,e,f,g);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
